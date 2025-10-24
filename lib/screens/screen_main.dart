@@ -13,6 +13,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   final List<Widget> _screens = [
     ColumnScreen(),
+    ListViewScreen(),
   ];
 
   void _onItemTapped(int index) {
